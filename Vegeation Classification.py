@@ -18,6 +18,8 @@ np.seterr(divide='ignore', invalid='ignore')
 print(np.argwhere(np.isnan(band_red)))
 print(np.argwhere(np.isnan(band_nir)))
 
+
+
 print(band_nir)
 print(band_red)
 
